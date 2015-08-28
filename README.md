@@ -6,4 +6,4 @@ A simple practice about Android AIDL in the Android Studio
 2. New your Service class and implement Stub that int the aidl's sub class.You have to override the method you declared in the aidl file.
 3. Create ServiceConnect object in your activity,you should override the onServiceConnected method that you can get a reference of the Stub object.
 4. Invoke the bindService in your Activity
-5. call the Stub's method by the reference you hold in the step 3.It means you call the method from the remote.
+5. Call the Stub's method by the reference you hold in the step 3.It means you call the method from the remote.
